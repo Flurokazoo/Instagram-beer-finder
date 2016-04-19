@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Instagram beer search</title>
+</head>
+<body class="text-center">
+
+
+<form id="tagform" method="post">
+    <span>Kies je favoriete biermerk, of zoek naar je eigen tag naar keuze, en druk op zoek!</span>
+
+
+    <div data-toggle="buttons">
+        <label for="heineken" class="btn btn-warning"><img src="img/logos/heineken-resize.png">
+            <input type="radio" name="tagInput" id="heineken" value="heineken"/>
+        </label>
+
+        <label for="grolsch" class="btn btn-warning"><img src="img/logos/grolsch-resize.png">
+            <input type="radio" name="tagInput" id="grolsch" value="grolsch"/>
+        </label>
+
+        <label for="warsteiner" class="btn btn-warning"><img src="img/logos/warsteiner-resize.png">
+            <input type="radio" name="tagInput" id="warsteiner" value="warsteiner"/>
+        </label>
+
+        <label for="latrappe" class="btn btn-warning"><img src="img/logos/latrappe-resize.png">
+            <input type="radio" name="tagInput" id="latrappe" value="latrappe"/>
+        </label>
+
+        <label for="guinness" class="btn btn-warning"><img src="img/logos/guinness-resize.png">
+            <input type="radio" name="tagInput" id="guinness" value="guinness"/>
+        </label>
+
+        <label for="thornbridge" class="btn btn-warning"><img src="img/logos/thornbridge-resize.png">
+            <input type="radio" name="tagInput" id="thornbridge" value="thornbridge"/>
+        </label>
+
+        <label for="corona" class="btn btn-warning"><img src="img/logos/corona-resize.png">
+            <input type="radio" name="tagInput" id="corona" value="coronaextra"/>
+        </label>
+
+        <label for="bitburger" class="btn btn-warning"><img src="img/logos/bitburger-resize.png">
+            <input type="radio" name="tagInput" id="bitburger" value="bitburger"/>
+        </label>
+
+        <label for="leffe" class="btn btn-warning"><img src="img/logos/leffe-resize.png">
+            <input type="radio" name="tagInput" id="leffe" value="leffe"/>
+        </label>
+
+        <label for="budweiser" class="btn btn-warning"><img src="img/logos/budweiser-resize.png">
+            <input type="radio" name="tagInput" id="budweiser" value="budweiser"/>
+        </label>
+
+        <label for="hertogjan" class="btn btn-warning"><img src="img/logos/hertogjan-resize.png">
+            <input type="radio" name="tagInput" id="hertogjan" value="hertogjan"/>
+        </label>
+
+        <label for="duvel" class="btn btn-warning"><img src="img/logos/duvel-resize.png">
+            <input type="radio" name="tagInput" id="duvel" value="duvel"/>
+        </label>
+
+        <label for="hoegaarden" class="btn btn-warning"><img src="img/logos/hoegaarden-resize.png">
+            <input type="radio" name="tagInput" id="hoegaarden" value="hoegaarden"/>
+        </label>
+
+        <label for="brand" class="btn btn-warning"><img src="img/logos/brand-resize.png">
+            <input type="radio" name="tagInput" id="brand" value="brandbier"/>
+        </label>
+
+        <label for="gulpener" class="btn btn-warning"><img src="img/logos/gulpener-resize.png">
+            <input type="radio" name="tagInput" id="gulpener" value="gulpener"/>
+        </label>
+
+        <label for="lindeboom" class="btn btn-warning"><img src="img/logos/lindeboom-resize.png">
+            <input type="radio" name="tagInput" id="lindeboom" value="lindeboom"/>
+        </label>
+
+        <label for="affligem" class="btn btn-warning"><img src="img/logos/affligem-resize.png">
+            <input type="radio" name="tagInput" id="affligem" value="affligem"/>
+        </label>
+
+        <label for="rogue" class="btn btn-warning"><img src="img/logos/rogue-resize.png">
+            <input type="radio" name="tagInput" id="rogue" value="roguebeer"/>
+        </label>
+
+        <label for="fosters" class="btn btn-warning"><img src="img/logos/fosters-resize.png">
+            <input type="radio" name="tagInput" id="fosters" value="fostersbeer"/>
+        </label>
+
+        <label for="vedett" class="btn btn-warning"><img src="img/logos/vedett-resize.png">
+            <input type="radio" name="tagInput" id="vedett" value="vedett"/>
+        </label>
+
+        <label for="other" class="btn btn-warning"><input class="form-control" placeholder="Andere tag" type="text"
+                                                          name="custom" id="custom">
+            <input type="radio" name="tagInput" id="other" value="custom">
+        </label>
+
+
+    </div>
+    <input class="btn btn-danger" value="Zoek!" type="submit" id="submitButton">
+</form>
+
+
+<div id="map-canvas"></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script src="js/mapsettings.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

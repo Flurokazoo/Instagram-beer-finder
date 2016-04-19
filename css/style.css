@@ -1,0 +1,26 @@
+body {
+    background-color: #587795;
+}
+
+#map-canvas {
+    border-top: 2px solid black;
+}
+
+.contentbox {
+    width: 306px;
+}
+
+.btn {
+    margin-top: 5px;
+}
+
+.btn-warning {
+    height: 48px;
+}
+
+span {
+    color: white;
+    display: block;
+    font-weight: bold;
+}
+
